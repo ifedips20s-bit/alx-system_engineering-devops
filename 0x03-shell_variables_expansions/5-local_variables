@@ -1,2 +1,3 @@
 #!/bin/bash
-( set -o posix; set )
+declare -p | tr '\n' ' '
+
